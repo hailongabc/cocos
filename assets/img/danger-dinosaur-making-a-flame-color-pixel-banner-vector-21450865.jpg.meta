@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.5",
+  "uuid": "07a65ce4-f7b6-404b-b5e3-eb466aff7b80",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 1000,
+  "height": 896,
+  "platformSettings": {},
+  "subMetas": {
+    "danger-dinosaur-making-a-flame-color-pixel-banner-vector-21450865": {
+      "ver": "1.0.4",
+      "uuid": "953c87c6-c3bf-468f-9118-865dac2317fc",
+      "rawTextureUuid": "07a65ce4-f7b6-404b-b5e3-eb466aff7b80",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 1000,
+      "height": 896,
+      "rawWidth": 1000,
+      "rawHeight": 896,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
