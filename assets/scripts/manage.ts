@@ -74,6 +74,15 @@ export default class NewClass extends cc.Component {
     }
 
     update (dt) {
-
+        if(this.accLeft){
+            this.xSpeed -= this.accel * dt;
+        }
+        if(this.accRight){
+            this.xSpeed += this.accel * dt;
+        }
+        if(Math.abs(this.xSpeed) > this.maxMovementSpeed){
+            this.xSpeed = this.maxMovementSpeed * this.xSpeed/Math.abs(this.xSpeed)
+        }
+        this.node.x += this.xSpeed * dt
     }
 }
